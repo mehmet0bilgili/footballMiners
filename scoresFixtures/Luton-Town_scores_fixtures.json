@@ -1,5 +1,5 @@
 {
-    "team_name": "Luton Town",
+    "team_name": "Luton-Town",
     "fixtures_scores": [
         {
             "Date": "2023-08-12",
@@ -873,7 +873,7 @@
             "GF": "1",
             "GA": "1",
             "Opponent": "Everton",
-            "xG": "0.9",
+            "xG": "0.8",
             "xGA": "1.4",
             "Poss": "51",
             "Attendance": "11,873",

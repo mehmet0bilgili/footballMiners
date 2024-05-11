@@ -1,5 +1,5 @@
 {
-    "team_name": "Sheffield United",
+    "team_name": "Sheffield-United",
     "fixtures_scores": [
         {
             "Date": "2023-08-12",
@@ -810,9 +810,9 @@
             "GF": "1",
             "GA": "3",
             "Opponent": "Nott'ham Forest",
-            "xG": "0.8",
-            "xGA": "0.3",
-            "Poss": "51",
+            "xG": "2.2",
+            "xGA": "1.5",
+            "Poss": "54",
             "Attendance": "28,516",
             "Captain": "Jack Robinson",
             "Formation": "3-5-2",

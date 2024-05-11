@@ -1,5 +1,5 @@
 {
-    "team_name": "Newcastle United",
+    "team_name": "Newcastle-United",
     "fixtures_scores": [
         {
             "Date": "2023-08-12",
@@ -999,9 +999,9 @@
             "GF": "4",
             "GA": "1",
             "Opponent": "Burnley",
-            "xG": "1.5",
-            "xGA": "0.3",
-            "Poss": "46",
+            "xG": "3.4",
+            "xGA": "1.0",
+            "Poss": "53",
             "Attendance": "21,781",
             "Captain": "Dan Burn",
             "Formation": "4-4-2",

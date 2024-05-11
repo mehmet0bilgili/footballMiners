@@ -1,5 +1,5 @@
 {
-    "team_name": "Brighton and Hove Albion",
+    "team_name": "Brighton-and-Hove-Albion",
     "fixtures_scores": [
         {
             "Date": "2023-08-12",
@@ -974,18 +974,18 @@
             "Round": "Matchweek 36",
             "Day": "Sun",
             "Venue": "Home",
-            "Result": "",
-            "GF": "",
-            "GA": "",
+            "Result": "W",
+            "GF": "1",
+            "GA": "0",
             "Opponent": "Aston Villa",
-            "xG": "",
-            "xGA": "",
-            "Poss": "",
-            "Attendance": "",
-            "Captain": "",
-            "Formation": "",
-            "Referee": "",
-            "Match Report": "Head-to-Head",
+            "xG": "2.5",
+            "xGA": "0.1",
+            "Poss": "52",
+            "Attendance": "31,596",
+            "Captain": "Lewis Dunk",
+            "Formation": "4-2-3-1",
+            "Referee": "Robert Jones",
+            "Match Report": "Match Report",
             "Notes": ""
         },
         {

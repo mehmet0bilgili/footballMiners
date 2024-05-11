@@ -1,5 +1,5 @@
 {
-    "team_name": "Manchester United",
+    "team_name": "Manchester-United",
     "fixtures_scores": [
         {
             "Date": "2023-08-14",
@@ -995,18 +995,18 @@
             "Round": "Matchweek 36",
             "Day": "Mon",
             "Venue": "Away",
-            "Result": "",
-            "GF": "",
-            "GA": "",
+            "Result": "L",
+            "GF": "0",
+            "GA": "4",
             "Opponent": "Crystal Palace",
-            "xG": "",
-            "xGA": "",
-            "Poss": "",
-            "Attendance": "",
-            "Captain": "",
-            "Formation": "",
-            "Referee": "",
-            "Match Report": "Head-to-Head",
+            "xG": "0.4",
+            "xGA": "1.7",
+            "Poss": "57",
+            "Attendance": "25,190",
+            "Captain": "Casemiro",
+            "Formation": "4-2-3-1",
+            "Referee": "Jarred Gillett",
+            "Match Report": "Match Report",
             "Notes": ""
         },
         {

@@ -1,5 +1,5 @@
 {
-    "team_name": "Manchester City",
+    "team_name": "Manchester-City",
     "fixtures_scores": [
         {
             "Date": "2023-08-06",
@@ -1107,7 +1107,7 @@
             "xG": "3.7",
             "xGA": "0.3",
             "Poss": "58",
-            "Attendance": "",
+            "Attendance": "52,439",
             "Captain": "Kyle Walker",
             "Formation": "4-2-3-1",
             "Referee": "Craig Pawson",

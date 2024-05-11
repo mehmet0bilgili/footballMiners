@@ -1,5 +1,5 @@
 {
-    "team_name": "Nottingham Forest",
+    "team_name": "Nottingham-Forest",
     "fixtures_scores": [
         {
             "Date": "2023-08-12",
@@ -873,9 +873,9 @@
             "GF": "3",
             "GA": "1",
             "Opponent": "Sheffield Utd",
-            "xG": "0.3",
-            "xGA": "0.8",
-            "Poss": "49",
+            "xG": "1.5",
+            "xGA": "2.2",
+            "Poss": "46",
             "Attendance": "28,516",
             "Captain": "Ryan Yates",
             "Formation": "4-2-3-1",

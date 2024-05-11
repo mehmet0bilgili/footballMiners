@@ -1,5 +1,5 @@
 {
-    "team_name": "Wolverhampton Wanderers",
+    "team_name": "Wolverhampton-Wanderers",
     "fixtures_scores": [
         {
             "Date": "2023-08-14",
@@ -750,7 +750,7 @@
             "xG": "1.5",
             "xGA": "1.0",
             "Poss": "52",
-            "Attendance": "45,314",
+            "Attendance": "42,640",
             "Captain": "Max Kilman",
             "Formation": "3-4-3",
             "Referee": "Paul Tierney",
@@ -897,7 +897,7 @@
             "xG": "0.3",
             "xGA": "3.7",
             "Poss": "42",
-            "Attendance": "",
+            "Attendance": "52,439",
             "Captain": "Max Kilman",
             "Formation": "3-5-2",
             "Referee": "Craig Pawson",

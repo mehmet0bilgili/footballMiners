@@ -1,5 +1,5 @@
 {
-    "team_name": "West Ham United",
+    "team_name": "West-Ham-United",
     "fixtures_scores": [
         {
             "Date": "2023-08-12",
@@ -1058,18 +1058,18 @@
             "Round": "Matchweek 36",
             "Day": "Sun",
             "Venue": "Away",
-            "Result": "",
-            "GF": "",
-            "GA": "",
+            "Result": "L",
+            "GF": "0",
+            "GA": "5",
             "Opponent": "Chelsea",
-            "xG": "",
-            "xGA": "",
-            "Poss": "",
-            "Attendance": "",
-            "Captain": "",
-            "Formation": "",
-            "Referee": "",
-            "Match Report": "Head-to-Head",
+            "xG": "0.9",
+            "xGA": "4.1",
+            "Poss": "31",
+            "Attendance": "39,295",
+            "Captain": "Kurt Zouma",
+            "Formation": "4-2-3-1",
+            "Referee": "Andy Madley",
+            "Match Report": "Match Report",
             "Notes": ""
         },
         {
