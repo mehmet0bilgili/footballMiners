@@ -73,7 +73,6 @@ def scrape_and_write_to_json(url, team_name):
 
 
 
-
 if __name__ == "__main__":
     team_mappings = utility.read_team_mappings("team_mappings.txt")
 

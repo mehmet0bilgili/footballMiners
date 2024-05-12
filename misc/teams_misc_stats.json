@@ -1,0 +1,202 @@
+[
+    {
+        "team_name": "Liverpool",
+        "played_matches": 56,
+        "red_card_number": 5,
+        "red_card_per_match": 0.08928571428571429,
+        "yellow_card_number": 92,
+        "yellow_card_per_match": 1.6428571428571428,
+        "offsides_number": 131,
+        "offsides_per_match": 2.3392857142857144
+    },
+    {
+        "team_name": "Arsenal",
+        "played_matches": 50,
+        "red_card_number": 2,
+        "red_card_per_match": 0.04,
+        "yellow_card_number": 77,
+        "yellow_card_per_match": 1.54,
+        "offsides_number": 102,
+        "offsides_per_match": 2.04
+    },
+    {
+        "team_name": "Manchester-City",
+        "played_matches": 54,
+        "red_card_number": 2,
+        "red_card_per_match": 0.037037037037037035,
+        "yellow_card_number": 70,
+        "yellow_card_per_match": 1.2962962962962963,
+        "offsides_number": 56,
+        "offsides_per_match": 1.037037037037037
+    },
+    {
+        "team_name": "Aston-Villa",
+        "played_matches": 54,
+        "red_card_number": 3,
+        "red_card_per_match": 0.05555555555555555,
+        "yellow_card_number": 132,
+        "yellow_card_per_match": 2.4444444444444446,
+        "offsides_number": 57,
+        "offsides_per_match": 1.0555555555555556
+    },
+    {
+        "team_name": "Tottenham-Hotspur",
+        "played_matches": 39,
+        "red_card_number": 4,
+        "red_card_per_match": 0.10256410256410256,
+        "yellow_card_number": 95,
+        "yellow_card_per_match": 2.4358974358974357,
+        "offsides_number": 88,
+        "offsides_per_match": 2.2564102564102564
+    },
+    {
+        "team_name": "Manchester-United",
+        "played_matches": 48,
+        "red_card_number": 4,
+        "red_card_per_match": 0.08333333333333333,
+        "yellow_card_number": 101,
+        "yellow_card_per_match": 2.1041666666666665,
+        "offsides_number": 105,
+        "offsides_per_match": 2.1875
+    },
+    {
+        "team_name": "West-Ham-United",
+        "played_matches": 52,
+        "red_card_number": 4,
+        "red_card_per_match": 0.07692307692307693,
+        "yellow_card_number": 108,
+        "yellow_card_per_match": 2.076923076923077,
+        "offsides_number": 90,
+        "offsides_per_match": 1.7307692307692308
+    },
+    {
+        "team_name": "Brighton-and-Hove-Albion",
+        "played_matches": 48,
+        "red_card_number": 3,
+        "red_card_per_match": 0.0625,
+        "yellow_card_number": 115,
+        "yellow_card_per_match": 2.3958333333333335,
+        "offsides_number": 98,
+        "offsides_per_match": 2.0416666666666665
+    },
+    {
+        "team_name": "Wolverhampton-Wanderers",
+        "played_matches": 44,
+        "red_card_number": 4,
+        "red_card_per_match": 0.09090909090909091,
+        "yellow_card_number": 113,
+        "yellow_card_per_match": 2.5681818181818183,
+        "offsides_number": 94,
+        "offsides_per_match": 2.1363636363636362
+    },
+    {
+        "team_name": "Newcastle-United",
+        "played_matches": 49,
+        "red_card_number": 1,
+        "red_card_per_match": 0.02040816326530612,
+        "yellow_card_number": 97,
+        "yellow_card_per_match": 1.9795918367346939,
+        "offsides_number": 75,
+        "offsides_per_match": 1.530612244897959
+    },
+    {
+        "team_name": "Chelsea",
+        "played_matches": 49,
+        "red_card_number": 3,
+        "red_card_per_match": 0.061224489795918366,
+        "yellow_card_number": 125,
+        "yellow_card_per_match": 2.5510204081632653,
+        "offsides_number": 109,
+        "offsides_per_match": 2.2244897959183674
+    },
+    {
+        "team_name": "Fulham",
+        "played_matches": 45,
+        "red_card_number": 4,
+        "red_card_per_match": 0.08888888888888889,
+        "yellow_card_number": 91,
+        "yellow_card_per_match": 2.022222222222222,
+        "offsides_number": 59,
+        "offsides_per_match": 1.3111111111111111
+    },
+    {
+        "team_name": "Bournemouth",
+        "played_matches": 43,
+        "red_card_number": 3,
+        "red_card_per_match": 0.06976744186046512,
+        "yellow_card_number": 91,
+        "yellow_card_per_match": 2.116279069767442,
+        "offsides_number": 74,
+        "offsides_per_match": 1.7209302325581395
+    },
+    {
+        "team_name": "Crystal-Palace",
+        "played_matches": 41,
+        "red_card_number": 2,
+        "red_card_per_match": 0.04878048780487805,
+        "yellow_card_number": 78,
+        "yellow_card_per_match": 1.9024390243902438,
+        "offsides_number": 75,
+        "offsides_per_match": 1.829268292682927
+    },
+    {
+        "team_name": "Brentford",
+        "played_matches": 41,
+        "red_card_number": 2,
+        "red_card_per_match": 0.04878048780487805,
+        "yellow_card_number": 90,
+        "yellow_card_per_match": 2.1951219512195124,
+        "offsides_number": 81,
+        "offsides_per_match": 1.975609756097561
+    },
+    {
+        "team_name": "Everton",
+        "played_matches": 44,
+        "red_card_number": 2,
+        "red_card_per_match": 0.045454545454545456,
+        "yellow_card_number": 88,
+        "yellow_card_per_match": 2.0,
+        "offsides_number": 101,
+        "offsides_per_match": 2.2954545454545454
+    },
+    {
+        "team_name": "Luton-Town",
+        "played_matches": 43,
+        "red_card_number": 0,
+        "red_card_per_match": 0.0,
+        "yellow_card_number": 73,
+        "yellow_card_per_match": 1.697674418604651,
+        "offsides_number": 72,
+        "offsides_per_match": 1.6744186046511629
+    },
+    {
+        "team_name": "Nottingham-Forest",
+        "played_matches": 43,
+        "red_card_number": 3,
+        "red_card_per_match": 0.06976744186046512,
+        "yellow_card_number": 94,
+        "yellow_card_per_match": 2.186046511627907,
+        "offsides_number": 91,
+        "offsides_per_match": 2.116279069767442
+    },
+    {
+        "team_name": "Burnley",
+        "played_matches": 41,
+        "red_card_number": 7,
+        "red_card_per_match": 0.17073170731707318,
+        "yellow_card_number": 85,
+        "yellow_card_per_match": 2.073170731707317,
+        "offsides_number": 88,
+        "offsides_per_match": 2.1463414634146343
+    },
+    {
+        "team_name": "Sheffield-United",
+        "played_matches": 40,
+        "red_card_number": 5,
+        "red_card_per_match": 0.125,
+        "yellow_card_number": 103,
+        "yellow_card_per_match": 2.575,
+        "offsides_number": 62,
+        "offsides_per_match": 1.55
+    }
+]
