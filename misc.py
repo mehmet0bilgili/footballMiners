@@ -2,6 +2,7 @@ import os
 import json
 import requests
 import utility
+import time
 from bs4 import BeautifulSoup
 
 def scrape_misc_stats(team_urls):
@@ -60,26 +61,28 @@ def scrape_misc_stats(team_urls):
 
     return teams_data
 
-def save_teams_misc_stats_json(teams_data):
+def save_teams_misc_stats_json(teams_data, season):
     os.makedirs("misc", exist_ok=True)
-    filepath = "misc/teams_misc_stats.json"
+    filepath = f"misc/{season}_misc_stats.json"
 
     with open(filepath, 'w') as json_file:
         json.dump(teams_data, json_file, indent=4)
 
-    print(f"Teams match statistics saved to '{filepath}'")
+    print(f"Teams match statistics for {season} saved to '{filepath}'")
 
 if __name__ == "__main__":
     team_mappings = utility.read_team_mappings("team_mappings.txt")
 
-    team_urls = []
+    seasons = utility.get_seasons()
 
-    for team_name, team_key in team_mappings.items():
-        misc_url = f"https://fbref.com/en/squads/{team_key}/2023-2024/matchlogs/all_comps/misc/{team_name}-Match-Logs-All-Competitions"
-        team_urls.append((misc_url, team_name))  
+    for season in seasons:
+        team_urls = []
 
-    # Scrape teams statistics
-    teams_data = scrape_misc_stats(team_urls)
+        for team_name, team_key in team_mappings.items():
+            misc_url = f"https://fbref.com/en/squads/{team_key}/{season}/matchlogs/all_comps/misc/{team_name}-Match-Logs-All-Competitions"
+            team_urls.append((misc_url, team_name))  
 
-    # Save teams statistics to JSON file
-    save_teams_misc_stats_json(teams_data)
+        teams_data = scrape_misc_stats(team_urls)
+        save_teams_misc_stats_json(teams_data, season)
+
+        time.sleep(30)

@@ -1,0 +1,162 @@
+[
+    {
+        "team_name": "Liverpool",
+        "passes": "30040",
+        "passes_pct": "83.9",
+        "played_matches": 56,
+        "corner_kick_number": 325,
+        "corner_kick_number_per_match": 5.803571428571429
+    },
+    {
+        "team_name": "Arsenal",
+        "passes": "27539",
+        "passes_pct": "84.7",
+        "played_matches": 51,
+        "corner_kick_number": 305,
+        "corner_kick_number_per_match": 5.980392156862745
+    },
+    {
+        "team_name": "Manchester-City",
+        "passes": "34418",
+        "passes_pct": "89.2",
+        "played_matches": 54,
+        "corner_kick_number": 335,
+        "corner_kick_number_per_match": 6.203703703703703
+    },
+    {
+        "team_name": "Aston-Villa",
+        "passes": "24926",
+        "passes_pct": "83.8",
+        "played_matches": 54,
+        "corner_kick_number": 299,
+        "corner_kick_number_per_match": 5.537037037037037
+    },
+    {
+        "team_name": "Tottenham-Hotspur",
+        "passes": "22808",
+        "passes_pct": "85.2",
+        "played_matches": 39,
+        "corner_kick_number": 221,
+        "corner_kick_number_per_match": 5.666666666666667
+    },
+    {
+        "team_name": "Manchester-United",
+        "passes": "21475",
+        "passes_pct": "80.7",
+        "played_matches": 49,
+        "corner_kick_number": 237,
+        "corner_kick_number_per_match": 4.836734693877551
+    },
+    {
+        "team_name": "West-Ham-United",
+        "passes": "21194",
+        "passes_pct": "77.9",
+        "played_matches": 52,
+        "corner_kick_number": 212,
+        "corner_kick_number_per_match": 4.076923076923077
+    },
+    {
+        "team_name": "Brighton-and-Hove-Albion",
+        "passes": "28639",
+        "passes_pct": "87.1",
+        "played_matches": 48,
+        "corner_kick_number": 238,
+        "corner_kick_number_per_match": 4.958333333333333
+    },
+    {
+        "team_name": "Wolverhampton-Wanderers",
+        "passes": "18843",
+        "passes_pct": "80.8",
+        "played_matches": 44,
+        "corner_kick_number": 154,
+        "corner_kick_number_per_match": 3.5
+    },
+    {
+        "team_name": "Newcastle-United",
+        "passes": "21464",
+        "passes_pct": "81.0",
+        "played_matches": 49,
+        "corner_kick_number": 207,
+        "corner_kick_number_per_match": 4.224489795918367
+    },
+    {
+        "team_name": "Chelsea",
+        "passes": "22297",
+        "passes_pct": "85.7",
+        "played_matches": 49,
+        "corner_kick_number": 190,
+        "corner_kick_number_per_match": 3.877551020408163
+    },
+    {
+        "team_name": "Fulham",
+        "passes": "19741",
+        "passes_pct": "80.5",
+        "played_matches": 45,
+        "corner_kick_number": 208,
+        "corner_kick_number_per_match": 4.622222222222222
+    },
+    {
+        "team_name": "Bournemouth",
+        "passes": "15554",
+        "passes_pct": "74.6",
+        "played_matches": 43,
+        "corner_kick_number": 230,
+        "corner_kick_number_per_match": 5.348837209302325
+    },
+    {
+        "team_name": "Crystal-Palace",
+        "passes": "16175",
+        "passes_pct": "76.7",
+        "played_matches": 41,
+        "corner_kick_number": 176,
+        "corner_kick_number_per_match": 4.2926829268292686
+    },
+    {
+        "team_name": "Brentford",
+        "passes": "16304",
+        "passes_pct": "74.4",
+        "played_matches": 41,
+        "corner_kick_number": 181,
+        "corner_kick_number_per_match": 4.414634146341464
+    },
+    {
+        "team_name": "Everton",
+        "passes": "15184",
+        "passes_pct": "73.2",
+        "played_matches": 44,
+        "corner_kick_number": 180,
+        "corner_kick_number_per_match": 4.090909090909091
+    },
+    {
+        "team_name": "Luton-Town",
+        "passes": "14753",
+        "passes_pct": "73.1",
+        "played_matches": 43,
+        "corner_kick_number": 199,
+        "corner_kick_number_per_match": 4.627906976744186
+    },
+    {
+        "team_name": "Nottingham-Forest",
+        "passes": "15405",
+        "passes_pct": "75.9",
+        "played_matches": 43,
+        "corner_kick_number": 145,
+        "corner_kick_number_per_match": 3.372093023255814
+    },
+    {
+        "team_name": "Burnley",
+        "passes": "17263",
+        "passes_pct": "77.2",
+        "played_matches": 41,
+        "corner_kick_number": 176,
+        "corner_kick_number_per_match": 4.2926829268292686
+    },
+    {
+        "team_name": "Sheffield-United",
+        "passes": "13247",
+        "passes_pct": "70.5",
+        "played_matches": 40,
+        "corner_kick_number": 139,
+        "corner_kick_number_per_match": 3.475
+    }
+]

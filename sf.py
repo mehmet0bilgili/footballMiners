@@ -3,8 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import utility
+import time
 
-def scrape_and_write_to_json(url, team_name):
+def scrape_and_write_to_json(url, team_name, season):
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
@@ -59,27 +60,32 @@ def scrape_and_write_to_json(url, team_name):
                     }
                     team_data["fixtures_scores"].append(fixture_score)
 
-        # Create the directory if it doesn't exist
-        os.makedirs("scoresFixtures", exist_ok=True)
+        # Create directories for saving JSON files
+        os.makedirs(f"scoresFixtures/{season}", exist_ok=True)
 
         # Write data to JSON file
-        filepath = f"scoresFixtures/{team_name}_scores_fixtures.json"
+        filepath = f"scoresFixtures/{season}/{season}_{team_name}_scores_fixtures.json"
         with open(filepath, 'w') as json_file:
             json.dump(team_data, json_file, indent=4)
 
         print(f"Data from {url} has been written to '{filepath}' successfully.")
+
     except Exception as e:
         print(f"An error occurred while scraping data from {url}: {e}")
-
-
 
 if __name__ == "__main__":
     team_mappings = utility.read_team_mappings("team_mappings.txt")
 
-    team_urls = []
-    for team_name, team_key in team_mappings.items():
-        url = f"https://fbref.com/en/squads/{team_key}/2023-2024/matchlogs/all_comps/schedule/{team_name}-Scores-and-Fixtures-All-Competitions"
-        team_urls.append((url, team_name))
+    # Define seasons to scrape
+    seasons = utility.get_seasons()
 
-    for url, team_name in team_urls:
-        scrape_and_write_to_json(url, team_name)
+    for season in seasons:
+        team_urls = []
+        for team_name, team_key in team_mappings.items():
+            url = f"https://fbref.com/en/squads/{team_key}/{season}/matchlogs/all_comps/schedule/{team_name}-Scores-and-Fixtures-All-Competitions"
+            team_urls.append((url, team_name, season))
+
+        for url, team_name, season in team_urls:
+            scrape_and_write_to_json(url, team_name, season)
+        
+        time.sleep(30)
