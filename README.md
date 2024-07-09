@@ -11,7 +11,3 @@ To run this project, you'll need to have the following Python libraries installe
   pip install beautifulsoup4
   ```
 [Colab](https://colab.research.google.com/drive/1tIaAvKqUzzeb7TOXkRqLQHyafKGZRaVa?usp=sharing)
-
-
-
-[V5.0](https://github.com/OnurNN/WebMiningFinal)    Latest Release of Project.
